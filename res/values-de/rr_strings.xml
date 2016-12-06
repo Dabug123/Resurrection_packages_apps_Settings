@@ -138,7 +138,7 @@
   <string name="listview">ListView</string>
   <string name="icons">Symbole</string>
   <string name="general">Allgemeine Einstellungen</string>
-  <string name="ka_title">Leistung</string>
+  <string name="ka_title">Kernel Konfiguration</string>
   <!--RR Configurations Summaries-->
   <string name="clock_custom_summary">Uhr und Datum in der Statusleiste anpassen</string>
   <string name="status_bar_logo_summary">Aktivieren oder deaktivieren Sie das Resurrection-Logo in der Statusbar. Außerdem Postition und Farbe anpassen</string>
