@@ -43,10 +43,9 @@
                 android:id="@android:id/icon"
                 android:layout_width="24dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="36dp"
-                android:tint="@color/condition_card_icon_color"
                 android:layout_marginStart="16dp"
-                android:tint="?android:attr/textColorPrimaryInverse" />
+                android:layout_marginEnd="32dp"
+                android:tint="@color/condition_card_icon_color" />
 
             <TextView
                 android:id="@android:id/title"
@@ -65,6 +64,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:background="?android:attr/selectableItemBackground" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -110,9 +110,6 @@
                     android:layout_weight="1"
                     android:paddingStart="0dp"
                     android:alpha=".8"
-                    android:textColor="@color/condition_card_first_button_text_color"
-                    android:textAlignment="viewStart"
-                    android:textColor="?android:attr/textColorPrimaryInverse"
                     android:textAlignment="viewStart"
                     android:textColor="@color/condition_card_first_button_text_color"
                     style="?android:attr/buttonBarButtonStyle" />
@@ -123,9 +120,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:alpha=".8"
-                    android:textColor="@color/condition_card_second_button_text_color"
-                    android:textAlignment="viewStart"
-                    android:textColor="?android:attr/textColorPrimaryInverse"
                     android:textAlignment="viewStart"
                     android:textColor="@color/condition_card_second_button_text_color"
                     style="?android:attr/buttonBarButtonStyle" />
